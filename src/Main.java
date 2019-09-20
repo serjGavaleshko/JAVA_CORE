@@ -1,8 +1,10 @@
-package com.javacore;
-
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+      // new WideningCasting().widening();
+       new NarrowingCasting().narrowing();
+      // NarrowingCasting casting = new NarrowingCasting();
+       //casting.narrowing();
+
     }
 }
