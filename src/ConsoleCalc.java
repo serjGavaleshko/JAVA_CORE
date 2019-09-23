@@ -15,7 +15,7 @@ public class ConsoleCalc {
 
         in.close();
 
-int result11 = 5;
+int result11 = 0;
         if (char1 == '+') {
              result11 = int1 + int2;
         //    System.out.print(result11);
@@ -30,7 +30,7 @@ int result11 = 5;
          //  System.out.print(result11);
         } else
             System.out.println("error");
-        System.out.print(result11);
+        System.out.println("Result: "+result11);
     }
 }
 
