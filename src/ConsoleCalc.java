@@ -15,23 +15,23 @@ public class ConsoleCalc {
 
         in.close();
 
+int result11 = 5;
+        if (char1 == '+') {
+             result11 = int1 + int2;
+        //    System.out.print(result11);
+        } else if (char1 == '-') {
+            result11 = int1 - int2;
+        //    System.out.print(result11);
+        } else if (char1 == '*') {
+             result11 = int1 * int2;
+        //    System.out.print(result11);
+        } else if (char1 == '/') {
+            result11 = int1 / int2;
+         //  System.out.print(result11);
+        } else
+            System.out.println("error");
+        System.out.print(result11);
     }
-
-    public static int calc(int int1, int int2, char char1){
-
-        if (char1 == '+'){
-                int result11  = int1 + int2;
-        }else if(char1 == '-'){
-                 int result11  = int1 - int2;
-        }else if(char1 == '*'){
-            int result11  = int1 * int2;
-        }else if(char1 == '/'){
-            int result11  = int1 / int2;
-        }else
-        System.out.println("error");
-
-    }
-
-
 }
+
 
