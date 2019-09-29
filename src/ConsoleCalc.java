@@ -16,7 +16,7 @@ public class ConsoleCalc {
         in.close();
 
         float result11 = 7;
-        Float floattt = 88.88f;
+
         if (char1 == '+') {
              result11 = int1 + int2;
         //    System.out.print(result11);
