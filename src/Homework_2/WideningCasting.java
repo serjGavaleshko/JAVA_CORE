@@ -1,3 +1,5 @@
+package Homework_2;
+
 public class WideningCasting {
     byte byte1 = 127;
     short short1 = 0;

@@ -1,3 +1,5 @@
+package HomeWork_4;
+
 public class FrameDraw {
     public void drawing_f() {
 
