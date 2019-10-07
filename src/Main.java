@@ -1,4 +1,3 @@
-import Classwork_5.LoopClaswork;
 import HomeWork_4.FrameDraw;
 import HomeWork_4.RectDraw;
 
@@ -10,10 +9,9 @@ public class Main {
       // Homework_2.NarrowingCasting casting = new Homework_2.NarrowingCasting();
        //casting.narrowing();
       //  new Calculator.ConsoleCalc().insertion(); //calculator
-     // new RectDraw().drawing();
-      //new FrameDraw().drawing_f();
-     // new HomeWork_4.TriangleDraw().drawing_t();
-      new LoopClaswork().looper();
+        new RectDraw().drawing();
+       new FrameDraw().drawing_f();
+        new HomeWork_4.TriangleDraw().drawing_t();
       //  System.out.println(Calculator.ConsoleCalc.insetion.result11);
 
     }
