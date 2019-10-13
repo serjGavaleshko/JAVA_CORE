@@ -9,24 +9,24 @@ public class Task_5B {
 
         for (int i = 1; i < n + 1; i++) {
 
-            if (i % 2 == 1) {
+                    if (i % 2 == 1) {
 
-                for (int j = 0; j < n + 1; j++) {
-                    even[j] = i;
+                        for (int j = 0; j < n + 1; j++) {
+                            even[j] = i;
+                        }
+                        System.out.print(even[i] + " ");
+                    }
                 }
-                System.out.print(even[i] + " ");
-            }
-        }
-        System.out.println();
+                System.out.println();
 
-        for (int k = n; k > 0; --k) {
+                for (int k = n; k > 0; --k) {
 
-            if (k % 2 == 1) {
+                    if (k % 2 == 1) {
 
-                for (int j = 0; j < n + 1; j++) {
-                    even[j] = k;
-                }
-                System.out.print(even[k] + " ");
+                        for (int j = 0; j < n + 1; j++) {
+                            even[j] = k;
+                        }
+                        System.out.print(even[k] + " ");
             }
         }
         System.out.println();

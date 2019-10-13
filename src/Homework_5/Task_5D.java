@@ -5,6 +5,12 @@ package Homework_5;
 
 import java.util.Random;
 
+/**
+ * pihdugkikitdjg;]
+ * kurhbkutrboirjt
+ */
+
+
 public class Task_5D {
     public void randminmax() {
         int n = 999;

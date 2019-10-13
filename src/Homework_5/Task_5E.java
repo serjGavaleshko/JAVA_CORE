@@ -11,11 +11,12 @@ public class Task_5E {
         int[][] twoarray = new int[b][a];
         Random random = new Random();
         for (int i = 0; i < b; i++) {
-            for (int j = 0; j < a ; j++) {
-                twoarray[i][j] = random.nextInt(99)+10;
-                System.out.print(twoarray[i][j] +" ");
+            for (int j = 0; j < a; j++) {
+                twoarray[i][j] = random.nextInt(99) + 10;
+                System.out.println(twoarray[i][j] + " ");
             }
-System.out.println();
+            //System.out.print(Arrays.toString(twoarray));
         }
     }
+
 }

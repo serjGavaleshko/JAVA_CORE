@@ -16,7 +16,7 @@ public class Task_5A {
                     even[j] = i;
                 }
                 System.out.print(even[i] + " ");
-                            }
+            }
         }
         System.out.println();
     }
