@@ -1,4 +1,4 @@
-package HomeWork_4;
+package Homework_4;
 
 public class FrameDraw {
     public void drawing_f() {
