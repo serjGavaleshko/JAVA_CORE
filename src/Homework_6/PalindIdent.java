@@ -31,39 +31,36 @@ public class PalindIdent {
             System.out.println("Your string is palindrome!");
         }
 
- // Var_2
+        // Var_2
         System.out.println("Var_2");
 
         int ink = 0;
-        for (int k = 0; k < chars.length/2 ; k++) {
-            if (chars[k] == chars[chars.length-k-1]) {
-                  ink++;
-
-            } else { System.out.println("Your string is NOT palindrome!");
-            break;}
-
+        for (int k = 0; k < chars.length / 2; k++) {
+            if (chars[k] == chars[chars.length - k - 1]) {
+                ink++;
+            } else {
+                System.out.println("Your string is NOT palindrome!");
+                break;
+            }
         }
-        if (ink >= chars.length/2){
-        System.out.println("Your string is palindrome!");}
+        if (ink >= chars.length / 2) {
+            System.out.println("Your string is palindrome!");
+        }
 
 // Var_3
         System.out.println("Var_3");
-        for (int h = 0; h <chars.length ; h++) {
+        for (int h = 0; h < chars.length; h++) {
             int check1 = Character.getNumericValue(chars[h]);
             int check2 = Character.getNumericValue(charsret[h]);
-            int deltafinder = check1-check2;
-            if (deltafinder  == 0) {
+            int deltafinder = check1 - check2;
+            if (deltafinder == 0) {
                 System.out.println("Your string is palindrome!");
                 break;
-            } else {System.out.println("Your string is NOT palindrome!");
-                break;}
-
-
+            } else {
+                System.out.println("Your string is NOT palindrome!");
+                break;
+            }
         }
-
     }
-
-
-
 }
 
