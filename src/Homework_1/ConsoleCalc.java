@@ -13,6 +13,7 @@ public class ConsoleCalc {
         System.out.print("Input second integer: ");
         float int2 = in.nextInt();
         System.out.print("Input +,-,/,*: ");
+
         char char1 = in.next().charAt(0);
         in.close();
         float result11 = 7;
