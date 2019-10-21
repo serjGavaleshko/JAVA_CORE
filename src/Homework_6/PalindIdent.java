@@ -9,9 +9,10 @@ public class PalindIdent {
         System.out.print("Input string to check palindrome: ");
         String word1 = in.next();
         in.close();
+
 // Var_1
         System.out.println("Var_1");
-        word1 = word1.toLowerCase();
+        word1 = word1.toLowerCase();//equilse.ignorecase
         char[] chars = word1.toCharArray();
         int p = 0;
         char[] charsret = new char[chars.length];
