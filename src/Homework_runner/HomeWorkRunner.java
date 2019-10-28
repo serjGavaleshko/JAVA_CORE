@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class HomeWorkRunner {
 
-    public void runner() throws InterruptedException {
+    public void runner() throws Exception {
         Scanner in = new Scanner(System.in);
         System.out.print("Input number of Homework: ");
         int hwnumber = in.nextInt();
@@ -33,7 +33,10 @@ public class HomeWorkRunner {
                 break;
             case 7:
                 new Homework_7.CoffeeMaker().drinkChoose();
+                break;
+            case 8:
 
+                new Homework_8.ReadWriteToFile().writeToFile();
                 break;
             default:
                 System.out.println("I haven't done this Homework yet");
