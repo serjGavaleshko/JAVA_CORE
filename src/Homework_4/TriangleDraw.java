@@ -2,7 +2,7 @@ package Homework_4;
 
 public class TriangleDraw {
     public void drawing_t() {
- int v = 2;
+ int v = 5;
 
         for (int i = 0; i < v; i++) {
             System.out.println("");

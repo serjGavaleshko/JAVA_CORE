@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ReadWriteToFile {
     public void writeToFile() {
         try {
-        File file = new File("C:\\Users\\Lenovo\\Desktop\\logs.txt");
+        File file = new File("C:\\Users\\logs.txt");
 
         String input = "";
 
