@@ -2,7 +2,10 @@ public class Person {
 
     public void personIdent() {
 
-        System.out.println("Hello World! ");
+Student student = new Student();
+student.setResponse(666);
+
+        System.out.println(student.getResponse());
 
 
     }

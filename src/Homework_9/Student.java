@@ -1,18 +1,14 @@
 public class Student extends  Person{
-    private String response;
+    private int response;
 
-    private void studak(){
-        response = "Sheat_its works";
-        System.out.println(response);
 
+
+    public int getResponse() {
+
+               return response*2;
     }
 
-    public String getResponse() {
-        studak();
-        return response;
-    }
-
-    public void setResponse(String response) {
+    public void setResponse(int response) {
         this.response = response;
             }
 

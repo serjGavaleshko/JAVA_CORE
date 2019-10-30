@@ -5,7 +5,7 @@ public class Main {
 //new HomeWorkRunner().runner();
 
 new Person().personIdent();
-new Student().getResponse();
+// Student().getResponse();
 
 
     }
