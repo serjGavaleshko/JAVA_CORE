@@ -1,5 +1,5 @@
-package Homework_runner;
 //Сделать HomeTaskRunner который будет вызывать меню со всеми домашними заданиями к уроку
+
 
 import java.util.Scanner;
 

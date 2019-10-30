@@ -18,6 +18,8 @@ public class ConsoleCalc {
         in.close();
         float result11 = 7;
 
+
+
 switch (char1) {
     case '+' : result11 = int1 + int2;
         break;
