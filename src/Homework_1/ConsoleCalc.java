@@ -4,30 +4,54 @@ import java.util.Scanner;
 
 public class ConsoleCalc {
 
+    public void input() {
+    input1();
+    input2();
+    input3();
+    }
 
-    public void insertion() {
+
+    private char  input1() {
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Input +,-,/,*: ");
+        char char1 = in.next().charAt(0);
+        in.close();
+
+        return char1;
+    }
+    private float input3() {
 
         Scanner in = new Scanner(System.in);
         System.out.print("Input first integer: ");
-        float int1 = in.nextInt();
+        float float1 = in.nextFloat();
+
+        return float1;
+    }
+
+
+    private float  input2() {
+
+        Scanner in = new Scanner(System.in);
+
         System.out.print("Input second integer: ");
-        float int2 = in.nextInt();
-        System.out.print("Input +,-,/,*: ");
+        float float2 = in.nextFloat();
 
-        char char1 = in.next().charAt(0);
         in.close();
-        float result11 = 7;
 
-
-
-switch (char1) {
-    case '+' : result11 = int1 + int2;
+        return float2;
+    }
+ public void operation() {
+        float result11 = 0;
+switch (input1()) {
+    case '+' : result11 = input1() + input2();
         break;
-    case '-' : result11 = int1 - int2;
+    case '-' : result11 = input1() - input2();
         break;
-    case '*' : result11 = int1 * int2;
+    case '*' : result11 = input1() * input2();
         break;
-    case '/' : result11 = int1 / int2;
+    case '/' : result11 = input1() / input2();
         break;
     default : System.out.println("error");
 }
